@@ -1,2 +1,2 @@
-#This is the structure repository to learn different programming languages.
+# This is the structure repository to learn different programming languages.
 Let's learn...
