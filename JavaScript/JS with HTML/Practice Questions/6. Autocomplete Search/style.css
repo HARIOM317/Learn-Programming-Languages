@@ -1,0 +1,16 @@
+#suggestions {
+  border: 1.5px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  width: 200px;
+  margin-top: 5px;
+}
+
+#suggestions div {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#suggestions div:hover {
+  background-color: #cdf3ff;
+}

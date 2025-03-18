@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage in JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Local Storage for Client-Side Storage</h1>
+
+    <section>
+      <h2>Note Taking</h2>
+      <p>
+        Type your note below. Your note will be saved in local storage and will
+        persist even after refreshing the page or closing and reopening the
+        browser.
+      </p>
+      <label for="noteInput">Your Note:</label>
+      <textarea
+        id="noteInput"
+        rows="4"
+        placeholder="Write something..."
+      ></textarea>
+      <button id="saveNote">Save Note</button>
+      <button id="clearNote">Clear Note</button>
+
+      <p class="result"></p>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

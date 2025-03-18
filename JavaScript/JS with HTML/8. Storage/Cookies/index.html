@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies in JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Cookies for Client-Side Storage</h1>
+
+    <section>
+      <h2>Language Preference</h2>
+      <p>
+        Select your preferred language and save it in a cookie. Then, click the
+        button to display a greeting in that language.
+      </p>
+
+      <label for="languages"> Choose Language</label>
+      <select id="languages">
+        <option value="English">English</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Spanish">Spanish</option>
+      </select>
+
+      <button id="saveLanguage">Save Language Preference</button>
+      <button id="showGreeting">Show Greeting</button>
+      <button id="clearLanguage">Clear Language Preference</button>
+
+      <p class="result"></p>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

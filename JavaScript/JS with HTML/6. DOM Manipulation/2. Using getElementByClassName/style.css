@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+.images .spiderManImg {
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+#description {
+  background-color: antiquewhite;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse Pointer Events</title>
+
+    <style>
+      #pointerArea {
+        width: 300px;
+        height: 200px;
+        border: 2px solid #333;
+        margin: 50px auto;
+        text-align: center;
+        line-height: 200px;
+        transition: background-color 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- On mouse hover on button -->
+    <button onmouseover="alert('You hover the mouse pointer on me!')">
+      Hover Me!
+    </button>
+
+    <!-- When mouse enter or leave the box boundary -->
+    <div
+      id="pointerArea"
+      onpointerenter="addColor()"
+      onpointerleave="removeColor()"
+    >
+      Move your pointer here
+    </div>
+
+    <!-- JS -->
+    <script>
+      // select pointer area
+      const pointerArea = document.querySelector("#pointerArea");
+
+      // When the pointer enters the element's boundaries
+      function addColor() {
+        pointerArea.style.backgroundColor = "skyblue";
+      }
+
+      // When the pointer leaves the element's boundaries
+      function removeColor() {
+        pointerArea.style.backgroundColor = "white";
+      }
+    </script>
+  </body>
+</html>

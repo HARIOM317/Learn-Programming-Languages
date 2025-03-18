@@ -1,0 +1,29 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#spider-man-img {
+  border-radius: 12px;
+  border: 4px solid black;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+#main-heading {
+  color: darkred;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  color: darkmagenta;
+}
+
+.para1,
+.para2,
+.para3 {
+  color: gray;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+}

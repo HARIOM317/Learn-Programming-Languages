@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: darkred;
+}
+
+h2 {
+  color: black;
+  font-size: 1.25rem;
+}
+
+p {
+  color: gray;
+}
+
+#mainImg {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.images .oldImg {
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}

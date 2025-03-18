@@ -1,0 +1,15 @@
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input {
+  max-width: 200px;
+  padding: 6px 12px;
+}
+
+button {
+  max-width: 100px;
+  padding: 4px 8px;
+  cursor: pointer;
+}

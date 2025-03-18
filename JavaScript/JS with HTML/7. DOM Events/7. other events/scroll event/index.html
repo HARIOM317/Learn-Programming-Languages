@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Scroll Event</title>
+
+    <style>
+      div {
+        border: 1.5px solid black;
+        width: 400px;
+        height: 200px;
+        overflow: scroll;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Try the scrollbar in div</h2>
+
+    <div onscroll="myFunction()">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quo ab est
+      quas obcaecati nulla perferendis voluptatum, recusandae soluta iste
+      laborum at nam voluptatem aliquam, quisquam cupiditate suscipit pariatur
+      fugiat temporibus rerum quos aut sed dolor. Vitae ea quae provident
+      similique dolorum deleniti rem tempore vel eligendi id, quaerat quia
+      itaque dolor debitis impedit illo officiis illum dolore expedita porro
+      incidunt quod earum laborum quisquam? Beatae assumenda asperiores id non?
+      Tempora ad voluptates explicabo minus similique impedit iste totam vero ut
+      rem. Vero ipsum architecto, soluta explicabo consequuntur id. Voluptates
+      perferendis sint, numquam corrupti illum veritatis tenetur cupiditate
+      voluptatum possimus magni adipisci dignissimos doloribus temporibus
+      molestias qui minima atque ipsa dolorum fugit, iure quasi praesentium
+      dolor libero. Sequi, facilis corrupti?
+    </div>
+
+    <p id="demo"></p>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "You scrolled in div.";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#output1,
+#output2 {
+  border: 1.5px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  min-width: 35%;
+  max-height: 200px;
+  overflow-y: auto;
+}

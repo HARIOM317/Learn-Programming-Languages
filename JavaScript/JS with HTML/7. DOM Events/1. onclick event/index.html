@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>On click/On double click event in js</title>
+  </head>
+
+  <body>
+    <!-- On single click -->
+    <button onclick="alert('Button clicked!')">Click Me!</button>
+
+    <!-- On double click -->
+    <button ondblclick="doubleClickMe()">Double click Me!</button>
+
+    <!-- Set onclick event using js -->
+    <button id="greet">Greet Me</button>
+
+    <!-- JavaScript -->
+    <script>
+      function doubleClickMe() {
+        alert("You double clicked the button!");
+      }
+
+      // select greet button
+      let greetBtn = document.getElementById("greet");
+      // trigger the function on the onclick event for greet button
+      greetBtn.onclick = function () {
+        let name = prompt("Enter your good name");
+        alert(`Hello ${name}, How are you?`);
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add event listener</title>
+
+    <style>
+      .clock {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      #pointerArea {
+        width: 300px;
+        height: 200px;
+        border: 2px solid #333;
+        margin: 50px auto;
+        text-align: center;
+        line-height: 200px;
+        transition: background-color 0.3s;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="clock">
+      <button>Show Date and Time</button>
+    </div>
+
+    <div id="pointerArea">Move your pointer here</div>
+
+    <!-- JS -->
+    <script>
+      // We can add multiple same or different events on the same element using event listeners
+
+      // select button
+      const btn = document.querySelector("button");
+
+      // to show current date and time using alert
+      btn.addEventListener("click", () => {
+        let date = new Date().toLocaleDateString();
+        let time = new Date().toLocaleTimeString();
+
+        alert(`📅 Today's date : ${date} \n⏲️ Current Time : ${time}`);
+      });
+      // ______________________________________________
+
+      // select pointer area
+      const pointerArea = document.querySelector("#pointerArea");
+
+      // When the pointer enters the element's boundaries
+      pointerArea.addEventListener("pointerenter", () => {
+        pointerArea.style.backgroundColor = "skyblue";
+        pointerArea.innerText = "Remove your pointer from here";
+      });
+
+      // When the pointer leaves the element's boundaries
+      pointerArea.addEventListener("pointerleave", () => {
+        pointerArea.style.backgroundColor = "white";
+        pointerArea.innerText = "Again move your pointer here";
+      });
+    </script>
+  </body>
+</html>

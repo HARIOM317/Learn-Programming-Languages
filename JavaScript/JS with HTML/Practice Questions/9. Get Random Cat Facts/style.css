@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  color: tomato;
+  text-transform: uppercase;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: brown;
+  border: 1.5px solid black;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+p {
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  background-color: lightpink;
+  font-weight: 600;
+  max-width: 600px;
+  margin: 2rem auto;
+}

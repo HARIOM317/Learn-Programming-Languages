@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: darkred;
+}
+
+#mainImg {
+  width: 200px;
+  border-radius: 10px;
+}
+
+#description {
+  background-color: antiquewhite;
+}

@@ -1,0 +1,49 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* For dark mode */
+.dark-mode {
+  background-color: #1f1f23;
+  color: white;
+}
+
+/* To update text color */
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: dodgerblue;
+}
+
+/* To update font weight */
+.font-thin {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* To update border */
+.border-black {
+  border: 3px solid black;
+}
+
+.border-red {
+  border: 3px solid red;
+}
+
+/* To update border radius */
+.circular {
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 8px;
+}

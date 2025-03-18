@@ -1,0 +1,15 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+  text-align: center;
+}
+
+.classic {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: wheat;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
