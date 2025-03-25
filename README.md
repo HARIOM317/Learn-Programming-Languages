@@ -92,12 +92,11 @@ This repository is licensed under the MIT License.
 
 You are free to use, modify, and distribute this project under the terms of the MIT license.
 
-📄 Read the full license here.
+📄 Read the full license [here](LICENSE).
 
 ---
 
 ## 📧 Contact & Support
-If you have any questions, feel free to open an **issue** or contact me at [hariommewada484@gmail.com](mailto:hariommewada484@gmail.com).
+If you have any questions, feel free to open an **issue**.
 
 Happy Coding! 🚀🎯
-
