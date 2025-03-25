@@ -87,7 +87,7 @@ We welcome contributions! If you want to add new problems, solutions, or improve
 
 ---
 
-📜 License
+## 📜 License
 This repository is licensed under the MIT License.
 
 You are free to use, modify, and distribute this project under the terms of the MIT license.
