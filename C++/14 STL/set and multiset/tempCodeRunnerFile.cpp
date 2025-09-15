@@ -1,1 +1,0 @@
-(s1.empty() ? "Yes" : "No"
