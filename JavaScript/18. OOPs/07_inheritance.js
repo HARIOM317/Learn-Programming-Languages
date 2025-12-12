@@ -5,14 +5,14 @@ class Vehicle {
   }
 
   showDetail() {
-    console.log("Name: ", this.name);
-    console.log("Color: ", this.color);
+    console.log("Name:", this.name);
+    console.log("Color:", this.color);
   }
 }
 
 class Car extends Vehicle {
-  constructor(price, speed) {
-    super();
+  constructor(color, name, price, speed) {
+    super(color, name);
     this.price = price;
     this.speed = speed;
   }
@@ -24,9 +24,7 @@ class Car extends Vehicle {
   }
 }
 
-let c1 = new Car("20000000 INR", 320);
-c1.color = "Red";
-c1.name = "Farari";
+let c1 = new Car("Red", "Farari", "20000000 INR", 320);
 c1.showDetail();
 c1.carSpeed();
 c1.carPrice();

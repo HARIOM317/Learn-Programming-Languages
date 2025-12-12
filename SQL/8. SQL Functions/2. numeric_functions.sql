@@ -1,0 +1,15 @@
+-- ABS()
+SELECT ABS(-10); -- 10
+
+-- ROUND()
+SELECT ROUND(12.67); -- 13
+SELECT ROUND(12.678, 2); -- 12.68
+
+-- CEIL()
+SELECT CEIL(12.1); -- 13
+
+-- FLOOR()
+SELECT FLOOR(12.9); -- 12
+
+-- MOD()
+SELECT MOD(17, 4); -- 1
